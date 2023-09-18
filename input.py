@@ -1,0 +1,5 @@
+name = input("What is your name: ")
+age = int(input("Enter your age: "))
+gpa = float(input("What is your gpa: "))
+isMarried = bool(input("Are you married: "))
+print("Hello! ", name, "Age: ", age, "GPA: ", gpa, "isMarried: ", isMarried)
