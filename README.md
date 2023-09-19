@@ -88,3 +88,72 @@ gpa = float(input("What is your gpa: "))
 isMarried = bool(input("Are you married: "))
 print("Hello! ", name, "Age: ", age, "GPA: ", gpa, "isMarried: ", isMarried)
 ```
+
+## Operator
+
+Operator is used to perform operation in data.
+
+- Arithmetic Operator (+, -, \*, /, //, %)
+- Relational Operator (> , <, >=, <=, ==, !=)
+- Logical Operator (and , or, not)
+- Assignment Operator (=, +=, -=, \*=, /=)
+
+### Arithmetic Operator-
+
+```python
+a = int(input("A = "))
+b = int(input("B = "))
+
+sum = a + b
+deference = a - b
+multiplication = a * b
+division = a / b
+floorDivision = a // b
+reminder = a % b
+
+print("Sum= ", sum)
+print("Deference= ", deference)
+print("Multiplication= ", multiplication)
+print("Division= ", division)
+print("Floor Division= ", floorDivision)
+print("Reminder= ", reminder)
+```
+
+### Relational Operator
+
+```python
+num1 = 23
+num2 = 40
+print(num1 > num2) # False
+print(num1 < num2) # True
+print(num1 >= num2) # False
+print(num1 <= num2) # True
+print(num1 == num2) # False
+print(num1 != num2) # True
+```
+
+### Logical Operator
+
+```python
+admittedClass = 4
+gpa = 5.00
+
+print(admittedClass == 5 and gpa >= 4.40) # return true if all true
+print(admittedClass == 5 or gpa >= 4.40) # return true if one true
+print(not admittedClass == 5) # return true if opposite
+```
+
+### Assignment Operator
+
+```python
+num1 = 38
+print(num1)
+num1 += 5
+print(num1)
+num1 -= 10
+print(num1)
+num1 *= 5
+print(num1)
+num1 /= 2
+print(num1)
+```
