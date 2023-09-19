@@ -242,3 +242,31 @@ numbers2.reverse()
 print(numbers2) # [0, 1, 5, 5, 9]
 
 ```
+
+## Looping
+
+- For loop
+- While loop
+
+### For Loop
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for i in numbers:
+    print(i)
+    i+=1
+```
+
+### While Loop
+
+```python
+start = int(input("Start = "))
+end = int(input("End = "))
+sum = 0
+
+while(start <= end):
+    sum += start
+    start += 1
+
+print(sum)
+```
