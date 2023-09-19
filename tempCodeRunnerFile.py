@@ -1,2 +1,1 @@
-num1 %= 10
-print(num1)
+.sort(reverse= True) 
