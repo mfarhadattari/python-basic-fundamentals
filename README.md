@@ -157,3 +157,18 @@ print(num1)
 num1 /= 2
 print(num1)
 ```
+
+## Condition
+
+- if else
+- elif
+
+```python
+age = int(input("Age = "))
+if(age >= 18 and age<= 35):
+    print("You are a young!")
+elif(age >= 36):
+    print("You are older!")
+else:
+    print("You are a child!")
+```
