@@ -270,3 +270,36 @@ while(start <= end):
 
 print(sum)
 ```
+
+## Function
+
+### Function declare and calling
+
+```python
+# declaring function
+def sayHello():
+    print("Hello World!")
+
+# calling function
+sayHello()
+```
+
+### function return
+
+```python
+def returnHello():
+    return "Hello World!"
+
+hello = returnHello()
+print(hello)
+```
+
+### function with parameter/arguments
+
+```python
+def sum(a, b):
+    return a + b
+
+result = sum(10, 15)
+print(result)
+```
